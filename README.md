@@ -1,23 +1,39 @@
 # BullIso
+<<<<<<< HEAD
 Replacement PCB for the Bully, with an ISO Enter
+=======
+>>>>>>> d85f04f (updated dir structure, added built img)
 
+A replacement Board for the Bully, incorporating an ISO-Enter.
+You can find the original bully [here](https://www.cbkbd.com/product/bully)
 
-## Status :
+made by ScatteredDrifter ~Evelyn
+
+---
+
+Measurements for the pcb were taken from the available plate-files. 
+
+---
+
+![image of built iso by Elia](/material/images/bullIso_built_elia.jpg)
+Image by Elia, whom I designed this for.
+
+## Current Status :
 - prototypes produced and tested 
 - working as intended
 
 ## Features : 
 - Rp2040 with EEPROM 
 - qmk / vial compatible 
-- optional pinouts(3) for further adjustments 
+- optional pinouts(3) for further tinkering / features
 - daughterboard-Support 
-- MX-Switches 
+- support for mx-switches 
 - production files ready for JLCPCB
 
 ## Layout : 
 All available layouts are to be seen in the following image: 
 
-![image of available keyboard layouts](/image/keyboard-layout.png)
+![image of available keyboard layouts](/material/images/keyboard-layout.png)
 
 ---
 
@@ -29,7 +45,21 @@ To enter the bootloader - which is necessary in order to flash a new firmware - 
 ## Building your own ::
 
 On the verge to build this keyboard your own?
-Below you can find a little guideline on what is required and how to obtain everything:
+For building one yourself you require the following:
+- this pcb
+- a unified daughterboard ( the old version with Jst-connectors)
+- the correct case 
+- tadpole mounds ( just like for the original pcb)
 
 ### Getting PCBs ::
+<<<<<<< HEAD
 I usually use JLCPCB for my prototypes, the procedure should be fairly similiar for other manufacturers however, and they require the bulliso_pcb_gerber.zip, which can be found in **/production** and for assembly of all SMD-components also their positions (pcb-bottom-pos.csv) and the BOM (BOM_pcb.csv) all of which can be found in the **/production/assembly** directory.
+=======
+I've ordered my prototypes at **JLCPCB** because they are easy work with and I've had my previous projects manufactured there. This is not an advertisement neither do I enforce the use of this vendor's service. 
+
+As of now the gerber-, BOM-, and Position-files are tailored towards the use with **JLCPCB**. 
+All of them can be found in the following directory: 
+- `production/assembly` for both BOM and Positions 
+- `production/gerber` for the gerber files 
+
+>>>>>>> d85f04f (updated dir structure, added built img)
